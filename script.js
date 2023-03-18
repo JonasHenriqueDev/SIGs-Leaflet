@@ -10,6 +10,7 @@ const streets = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 const UPE = L.marker([-8.883407, -36.496282]).bindPopup('UPE Campus Garanhuns'),
     IFPE = L.marker([-8.877031, -36.462948]).bindPopup('IFPE Garanhuns')
     UFAPE = L.marker([-8.906791, -36.494309]).bindPopup('UFAPE Garanhuns')
+    
 
     ETE = L.marker([-8.905815, -36.495456], ).bindPopup('ETE Garanhuns')
     XV = L.marker([-8.890075, -36.48727]).bindPopup('Colégio Presbiteriano XV de Novembro'),
