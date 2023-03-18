@@ -12,7 +12,7 @@ const UPE = L.marker([-8.883407, -36.496282]).bindPopup('UPE Campus Garanhuns'),
     UFAPE = L.marker([-8.906791, -36.494309]).bindPopup('UFAPE Garanhuns')
 
     ETE = L.marker([-8.905815, -36.495456], ).bindPopup('ETE Garanhuns')
-    XV = L.marker([-8.890075, -36.48727]).bindPopup('Colegio Quinze de Novembro'),
+    XV = L.marker([-8.890075, -36.48727]).bindPopup('Colégio Presbiteriano XV de Novembro'),
     ParqueEucalipto = L.marker([-8.88346, -36.485083]).bindPopup('Parque Euclides Dourado (Parque do eucaliptos)'),
     ParqueNatural = L.marker([-8.884308, -36.519323]).bindPopup('Parque Natural Municipal das Nascentes do Mundaú'),
     ParqueRuben = L.marker([-8.892958, -36.490705]).bindPopup('Parque Ruber Van Der Linden - Pau Pombo');
