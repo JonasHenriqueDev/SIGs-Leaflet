@@ -23,12 +23,12 @@ const ensinoSuperior = L.layerGroup([UPE, IFPE, UFAPE]);
 const ensinoMedio = L.layerGroup([XV, ETE, IFPE]);
 const parques = L.layerGroup([ParqueEucalipto, ParqueNatural, ParqueRuben]);
 const ativarMarcadores = L.layerGroup([ensinoMedio, ensinoSuperior, parques])
-const desativarMarcadores = L.layerGroup(null)
+//const desativarMarcadores = L.layerGroup(null)     // desativado pois não funcionou como esperado
 
 // objeto overlay
 const overlayMaps = {
-    "Esconder todos os marcadores": desativarMarcadores,
-    "Mostrar todos os marcadores": ativarMarcadores
+    //"Esconder todos os marcadores": desativarMarcadores,  // desativado pois não funcionou como esperado
+    //"Mostrar todos os marcadores": ativarMarcadores       // desativado pois não funcionou como esperado
 };
 
 const layerControl = L.control.layers(overlayMaps).addTo(map);
