@@ -32,6 +32,7 @@ const overlayMaps = {
 
 const layerControl = L.control.layers(overlayMaps).addTo(map);
 
+// controles de 'checkbox' para os overlays
 layerControl.addOverlay(parques, "Parques");
 layerControl.addOverlay(ensinoMedio, "Ensino Médio");
 layerControl.addOverlay(ensinoSuperior, "Ensino Superior");
