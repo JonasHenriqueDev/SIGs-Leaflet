@@ -1,3 +1,3 @@
 # SIGs-Leaflet
 
-https://jonashenriquedev.github.io/sigs-leaflet
+https://jonashenriquedev.github.io/SIGs-Leaflet/
